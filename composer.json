@@ -1,0 +1,20 @@
+{
+  "name": "taitava/silverstripe-dataview",
+  "description": "Creates MySQL views automatically during dev/build .",
+  "type": "silverstripe-module",
+  "license": "MIT",
+  "require": {
+    "silverstripe/framework": "~3.1",
+    "silverstripe/cms": "~3.1"
+  },
+  "keywords": ["silverstripe","MySQL view","database view"],
+  "authors": [{
+    "name": "Jarkko Linnanvirta",
+    "email": "posti@taitavasti.fi",
+    "homepage": "http://taitavasti.fi",
+    "role": "Developer"
+  }],
+  "extra": {
+    "installer-name": "dataview"
+  }
+}
