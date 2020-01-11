@@ -1,6 +1,9 @@
 <?php
 
-class DataViewBuilder extends Object
+// Support SilverStripe versions lower than 3.7:
+if (!class_exists('SS_Object')) class_alias('Object', 'SS_Object');
+
+class DataViewBuilder extends SS_Object
 {
 	/**
 	 * @conf bool If true, views are automatically created/replaced/dropped during the dev/build process.
